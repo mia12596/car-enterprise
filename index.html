@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/078d194c95.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- nav section -->
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">BMW2.0</h1>
+            <ul class="hidden sm:flex space-x-4 items-center relative text-[1rem]">
+                <li><a href="home">Home</a></li>
+                <li><a href="Contacts">Contacts</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="News">News</a></li>
+                <input class="border border-amber-700 py-2 px-2 rounded-md " type="text" name="" id=""
+                    placeholder="Search About">
+                <p class="absolute left-96 bg-orange-700 px-3 py-2 hover:text-white duration-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                    </svg>
+
+                </p>
+                <li class="px-6 py-3 border border-cyan-500 duration-700 rounded-lg hover:bg-orange-600"><a
+                        href="Log In">Log
+                        In</a></li>
+            </ul>
+            <p class="sm:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </p>
+        </nav>
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <div class="bg-[rgba(231,111,81,0.1)] h-[70vh] relative">
+                    <div class=" md:flex items-center justify-between px-5 mt-10">
+                        <div class="">
+                            <h1 class="text-3xl mt-2">Ride-on BMW V4 with Smile</h1>
+                            <p class="mt-2">Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.
+                            </p>
+                            <button class="px-4 py-2 bg-orange-600 rounded-md text-white mt-3">Purchase</button>
+                        </div>
+                        <div class="w-[100%] md:w-[50%] mt-3">
+                            <img class="w-[100%] md:w-[80%]" src="image/car.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle mt-44">❮</a>
+                        <a href="#slide2" class="btn btn-circle mt-44">❯</a>
+                    </div>
+
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <div class="bg-[rgba(231,111,81,0.1)] h-[70vh] relative">
+                    <div class=" md:flex items-center justify-between px-5 mt-10">
+                        <div class="">
+                            <h1>Ride-on BMW V4 with Smile</h1>
+                            <p>Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.
+                            </p>
+                            <button class="px-4 py-2 bg-orange-600 rounded-md text-white">Purchase</button>
+                        </div>
+                        <div class="w-[100%] md:w-[50%] mt-3">
+                            <img class="w-[100%] md:w-[80%]" src="image/car.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <div class="bg-[rgba(231,111,81,0.1)] h-[70vh] relative">
+                    <div class=" md:flex items-center justify-between px-5 mt-10">
+                        <div class="">
+                            <h1>Ride-on BMW V4 with Smile</h1>
+                            <p>Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.
+                            </p>
+                            <button class="px-4 py-2 bg-orange-600 rounded-md text-white">Purchase</button>
+                        </div>
+                        <div class="w-[100%] md:w-[50%] mt-3">
+                            <img class="w-[100%] md:w-[80%]" src="image/car.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform
+                        justify-between ">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="flex flex-col items-center mt-5">
+            <h1 class="font-bold text-3xl">Featured caress In This Year</h1>
+            <p class="border-b-2 mx-auto border-orange-800 text-orange-600">Best bike collection</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 space-x-4 mt-10">
+            <img class="rounded-lg" src="image/car2.avif" alt="">
+            <img class="rounded-lg" src="image/car3.jpg" alt="">
+            <img class="rounded-lg" src="image/car4.avif" alt="">
+        </div>
+
+        <div>
+            <h1 class="text-3xl text-center font-bold">latest news</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 space-x-3">
+            <div class="shadow-inner">
+                <img class="rounded-lg " src="image/car5.avif" alt="">
+                <h1 class="text-3xl mt-3">PAZERO XDIAVEL S-73</h1>
+                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                    sed
+                    id nisi
+                    lectus at.</p>
+                <button
+                    class="flex items-center justify-center mt-4 space-x-3 border-2 bg-orange-600 px-8 py-4 rounded-md text-white">
+                    <p>Read more</p>
+                    <p><i class="fa-solid fa-angle-right"></i></p>
+                </button>
+
+            </div>
+            <div>
+                <img class="rounded-lg" src="image/car6.avif" alt="">
+                <h1 class="text-3xl mt-3">PAZERO XDIAVEL S-73</h1>
+                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                    sed
+                    id nisi
+                    lectus at.</p>
+                <button
+                    class="flex items-center justify-center mt-4 space-x-3 border-2 bg-orange-600 px-8 py-4 rounded-md text-white">
+                    <p>Read more</p>
+                    <p><i class="fa-solid fa-angle-right"></i></p>
+                </button>
+
+            </div>
+            <div>
+                <img class="rounded-lg" src="image/car5.avif" alt="">
+                <h1 class="text-3xl mt-3">PAZERO XDIAVEL S-73</h1>
+                <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                    sed
+                    id nisi
+                    lectus at.</p>
+                <button
+                    class="flex items-center justify-center mt-4 space-x-3 border-2 bg-orange-600 px-8 py-4 rounded-md text-white">
+                    <p>Read more</p>
+                    <p><i class="fa-solid fa-angle-right"></i></p>
+                </button>
+
+            </div>
+
+        </div>
+        <div>
+            <h1 class="text-3xl uppercase text-center mt-10">happy <span class="text-yellow-400 "> clients say</span>
+            </h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3">
+            <div class="flex flex-col items-center border-4 border-solid p-10 space-x-4">
+                <div class="border-4 border-dashed">
+                    <img class="h-52 w-52 rounded-[50%] " src="image/clients1.jpg" alt="">
+                </div>
+                <div>
+                    <h1 class="text-center">Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</h1>
+                </div>
+                <div class="flex">
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                </div>
+                <p>banker</p>
+            </div>
+            <div class="flex flex-col items-center border-4 border-solid p-10 space-x-4">
+                <div class="border-4 border-dashed">
+                    <img class="h-52 w-52 rounded-[50%] " src="image/clients2.jpg" alt="">
+                </div>
+                <div>
+                    <h1 class="text-center">Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</h1>
+                </div>
+                <div class="flex">
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                </div>
+                <p>banker</p>
+            </div>
+            <div class="flex flex-col items-center border-4 border-solid p-10 space-x-4">
+                <div class="border-4 border-dashed">
+                    <img class="h-52 w-52 rounded-[50%] " src="image/clients3.jpg" alt="">
+                </div>
+                <div>
+                    <h1 class="text-center">Slate helps you see how
+                        many more days you need
+                        to work to reach your financial
+                        goal for the month and year.</h1>
+                </div>
+                <div class="flex">
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                </div>
+                <p>banker</p>
+            </div>
+
+            <div class="md:flex items-center justify-between">
+                <div>
+                    <img src="image/faq.png" alt="">
+                </div>
+                <div>
+                    <div class="collapse bg-base-200">
+                        <input type="radio" name="my-accordion-1" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div class="collapse bg-base-200">
+                        <input type="radio" name="my-accordion-1" />
+                        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div class="collapse bg-base-200">
+                        <input type="radio" name="my-accordion-1" />
+                        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </main>
+    <footer class="bg-black md:flex justify-between items-center px-7 py-5">
+        <div>
+            <div class="flex space-x-7">
+                <p class="text-white">download</p>
+                <p class="text-white">license</p>
+            </div>
+            <div class="flex space-x-3 text-white">
+                <p>about</p>
+                <p>about</p>
+                <p>about</p>
+                <p>about</p>
+                <p>about</p>
+
+            </div>
+            <p class="text-white">&copy;dvelop by apu</p>
+        </div>
+        <div>
+            <h1 class="text-white">get the app</h1>
+            <img src="image/android.png" alt="">
+            <img src="image/ios.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>
